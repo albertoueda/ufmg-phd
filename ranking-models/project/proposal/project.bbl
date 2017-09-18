@@ -1,0 +1,102 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Greuter, Junker, Kuhn, Mance, Mermet,
+  Rellstab, and Eickhoff}{Greuter et~al\mbox{.}}{2016}]%
+        {eth16cds}
+\bibfield{author}{\bibinfo{person}{Simon Greuter}, \bibinfo{person}{Philip
+  Junker}, \bibinfo{person}{Lorenz Kuhn}, \bibinfo{person}{Felix Mance},
+  \bibinfo{person}{Virgile Mermet}, \bibinfo{person}{Angela Rellstab}, {and}
+  \bibinfo{person}{Carsten Eickhoff}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{E}{T}{H} {Z}urich at {T}{R}{E}{C} 2016 {C}linical
+  {D}ecision {S}upport}. In \bibinfo{booktitle}{{\em TREC 2016}},
+  \bibfield{editor}{\bibinfo{person}{Ellen~M. Voorhees} {and}
+  \bibinfo{person}{Angela Ellis}} (Eds.).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gurulingappa, Toldo, Schepers, Bauer, and
+  Megaro}{Gurulingappa et~al\mbox{.}}{2016}]%
+        {merck16cds}
+\bibfield{author}{\bibinfo{person}{Harsha Gurulingappa}, \bibinfo{person}{Luca
+  Toldo}, \bibinfo{person}{Claudia Schepers}, \bibinfo{person}{Alexander
+  Bauer}, {and} \bibinfo{person}{Gerard Megaro}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Semi-Supervised Information Retrieval System for
+  Clinical Decision Support}. In \bibinfo{booktitle}{{\em TREC}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jo and Lee}{Jo and Lee}{2016}]%
+        {cbnu16cds}
+\bibfield{author}{\bibinfo{person}{Seung-Hyeon Jo} {and}
+  \bibinfo{person}{Kyung-Soon Lee}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{CBNU at TREC 2016 Clinical Decision Support Track}.
+  In \bibinfo{booktitle}{{\em TREC}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Roberts, Simpson, Voorhees, and Hersh}{Roberts
+  et~al\mbox{.}}{2015}]%
+        {roberts15}
+\bibfield{author}{\bibinfo{person}{Kirk Roberts}, \bibinfo{person}{Matthew~S.
+  Simpson}, \bibinfo{person}{Ellen~M. Voorhees}, {and}
+  \bibinfo{person}{William~R. Hersh}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Overview of the {TREC} Clinical Decision Support
+  Track}. In \bibinfo{booktitle}{{\em TREC 2015}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zuccon and Koopman}{Zuccon and
+  Koopman}{2017}]%
+        {zuccon17tutorial}
+\bibfield{author}{\bibinfo{person}{Guido Zuccon} {and} \bibinfo{person}{Bevan
+  Koopman}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{SIGIR 2017 Tutorial on Health Search (HS2017): A
+  Full-day from Consumers to Clinicians}. In \bibinfo{booktitle}{{\em SIGIR
+  2017}} {\em (\bibinfo{series}{SIGIR '17})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1415--1418}.
+\newblock
+\showISBNx{978-1-4503-5022-8}
+\showDOI{%
+\url{https://doi.org/10.1145/3077136.3082061}}
+
+
+\end{thebibliography}

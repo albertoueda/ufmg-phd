@@ -1,0 +1,21 @@
+Project proposal (03/09 @ 23:55)
+
+Submit a one-page proposal listing the project members and describing your chosen theme. You should use the ACM LaTeX (sample-sigconf.tex) template.
+
+The proposal will serve as a starting point for a series of discussions toward formalizing your project. All projects should include the following information:
+
+Project title
+Project author
+Project track (research or development)
+Research projects should also discuss the following questions:
+
+What problem are you addressing?
+Are there any existing solutions? (Google Scholar is your friend)
+How do you plan to address the problem? (note: your proposed solution may naturally evolve as you familiarize yourself with the problem)
+How do you plan to evaluate your proposed solution?
+Development projects should also discuss the following questions:
+
+Which software toolkit (e.g., Lucene) will you build upon?
+What is your proposed extension for implementation?
+Has it been implemented before?
+How do you plan to validate your implementation?
